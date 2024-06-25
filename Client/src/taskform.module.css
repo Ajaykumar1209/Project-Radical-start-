@@ -1,0 +1,164 @@
+.firstname_label{
+    font-family: Outfit;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 28.98px;
+    text-align: left;
+    color: #000000;
+
+}
+.firstname_input{
+    width: 300px;
+    height: 38px;
+    padding-left: 20px;
+    opacity: 0px;
+    border: 1px solid #A9A9A9
+}
+.lastname_label{
+    font-family: Outfit;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 28.98px;
+    text-align: left;
+    color: #000000;
+
+}
+.lastname_input{
+    width: 300px;
+    height: 38px;
+    padding-left: 20px;
+    opacity: 0px;
+    border: 1px solid #A9A9A9
+}
+
+.location_label{
+    font-family: Outfit;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 28.98px;
+    text-align: left;
+    color: #000000;
+
+}
+.location_input{
+    width: 300px;
+    height: 38px;
+    opacity: 0px;
+    padding-left: 20px;
+    border: 1px solid #A9A9A9
+}
+
+.email_label{
+    font-family: Outfit;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 28.98px;
+    text-align: left;
+    color: #000000;
+
+}
+.email_input{
+    width: 300px;
+    height: 38px;
+    opacity: 0px;
+    padding-left: 20px;
+    border: 1px solid #A9A9A9
+}
+
+.dob_label{
+    font-family: Outfit;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 28.98px;
+    text-align: left;
+    color: #000000;
+
+}
+.dob_input{
+    width: 300px;
+    height: 38px;
+    opacity: 0px;
+    padding-left: 10px;
+    border: 1px solid #A9A9A9
+}
+/* .month_input{
+    width: 50px;
+    height: 38px;
+    opacity: 0px;
+    padding-left: 10px;
+    border: 1px solid #A9A9A9
+}
+.year_input{
+    width: 50px;
+    height: 38px;
+    opacity: 0px;
+    padding-left: 10px;
+    border: 1px solid #A9A9A9
+} */
+.education_label{
+    font-family: Outfit;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 28.98px;
+    text-align: left;
+    color: #000000;
+
+}
+.education_input{
+    width: 300px;
+    height: 38px;
+    opacity: 0px;
+    padding-left: 20px;
+    border: 1px solid #A9A9A9
+}
+.about_label{
+    font-family: Outfit;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 28.98px;
+    text-align: left;
+    color: #000000;
+}
+.about_textarea{
+    width: 300px;
+    height: 100px;
+    resize: none;
+    border: 1px;
+    padding-left: 20px;
+    border: 1px solid #A9A9A9
+}
+.submit_btn{
+    width: 120px;
+    height: 38px;
+    border-radius: 30px;
+    color: #f5f5f5;
+    background: #000000;
+}
+.error {
+    color: red;
+    font-size: 12px;
+}
+    
+
+@media only screen and (min-width:375px){
+    .firstname_input{
+        margin-left: 0px !important;
+    }
+    .lastname_input{
+        margin-left: 0px !important;
+    }
+    .location_input{
+       margin-left: 0px !important;
+    }
+    .email_input{
+        margin-left: 0px !important;
+    }
+    .dob_input{
+        margin-left: 0px !important;
+    }
+}
+@media only screen and (max-width :990px){
+    .lastname_div{
+        margin-top: 30px;
+    }
+}
